@@ -56,6 +56,19 @@ public class ClassMath {
         System.out.println(Math.scalb(3, 4)); // 3*2*2*2*2 = 48  произведение числа value на 2 в степени factor
         System.out.println(Math.signum(2.3)); //возвращает число 1, если число value положительное, и -1, если значение
         System.out.println(Math.signum(-2.3)); //value отрицательное, если value равно 0, то возвращает 0
+        double result17 = Math.sin(15);// sin(double value): возвращает синус угла value
+        System.out.println(result17);
+        double result18 = Math.sinh(31);// sinh(double value): возвращает гиперболический синус угла value
+        System.out.println(result18);
+        double result19 = Math.sqrt(9);// sqrt(double value): возвращает квадратный корень числа value
+        System.out.println(result19);
+        double result20 = Math.tan(71);// tan(double value): возвращает тангенс угла value
+        System.out.println(result20);
+        double result21 = Math.tanh(49);// tanh(double value): возвращает гиперболический тангенс угла value
+        System.out.println(result21);
+        System.out.println(Math.toDegrees(3.14159)); // toDegrees(double value) переводит радианы в градусы
+        System.out.println(Math.toRadians(90)); // и toRadians(double value) - градусы в радианы
+
 
     }
  }
