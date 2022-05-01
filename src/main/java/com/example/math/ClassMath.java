@@ -43,11 +43,19 @@ public class ClassMath {
         System.out.println(result15);
         double result16 = Math.random(); // random(): возвращает случайное число от 0.0 до 1.0
         System.out.println(result16);
-        System.out.println(Math.rint(2)); // 2.0
-        System.out.println(Math.rint(2.3)); // 2.0
-        System.out.println(Math.rint(2.5)); // 2.0
-        System.out.println(Math.rint(2.5001)); // 3.0
-        System.out.println(Math.rint(2.8)); // 3.0
+        System.out.println(Math.rint(2)); // rint(double value): возвращает число
+        System.out.println(Math.rint(2.3)); //
+        System.out.println(Math.rint(2.5)); // double, которое представляет
+        System.out.println(Math.rint(2.5001)); //
+        System.out.println(Math.rint(2.8)); // ближайшее к числу value целое число
+        System.out.println(Math.round(2.3)); //round(double d): возвращает число d,
+        System.out.println(Math.round(2.5)); //
+        System.out.println(Math.round(2.5001)); //
+        System.out.println(Math.round(2.8)); //округленное до ближайшего целого числа
+        System.out.println(Math.scalb(5, 3)); // 5*2*2*2 = 40    scalb(double value, int factor): возвращает
+        System.out.println(Math.scalb(3, 4)); // 3*2*2*2*2 = 48  произведение числа value на 2 в степени factor
+        System.out.println(Math.signum(2.3)); //возвращает число 1, если число value положительное, и -1, если значение
+        System.out.println(Math.signum(-2.3)); //value отрицательное, если value равно 0, то возвращает 0
 
     }
  }
